@@ -14,30 +14,101 @@ def cfb_records():
   t=item.get('total') or {};out[f'CFB|{public}']={'wins':t.get('wins',0),'losses':t.get('losses',0),'ties':t.get('ties',0),'source':'CFBD'}
  return out
 def espn_events():
- urls=[f'https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?limit=1000&dates={SEASON}&seasontype=2',f'https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?limit=1000&dates={SEASON}&seasontype=3',f'https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?limit=1000&dates={SEASON+1}&seasontype=3'];events=[]
- for u in urls:
-  rr=requests.get(u,timeout=30);rr.raise_for_status();events.extend(rr.json().get('events',[]))
+ events = []
+ # NFL regular season: Weeks 1–18
+ for week in range(1, 19):
+  url = (
+   'https://site.api.espn.com/apis/site/v2/'
+   'sports/football/nfl/scoreboard'
+   f'?dates={SEASON}&seasontype=2&week={week}'
+  )
+  rr = requests.get(url, timeout=30)
+  rr.raise_for_status()
+  events.extend(rr.json().get('events', []))
+ # NFL postseason: Wild Card through Super Bowl
+ for week in range(1, 5):
+  url = (
+   'https://site.api.espn.com/apis/site/v2/'
+   'sports/football/nfl/scoreboard'
+   f'?dates={SEASON}&seasontype=3&week={week}'
+  )
+  rr = requests.get(url, timeout=30)
+  rr.raise_for_status()
+  events.extend(rr.json().get('events', []))
  return events
 def nfl_records():
- teams={n:{'wins':0,'losses':0,'ties':0,'source':'ESPN scoreboard'} for n in drafted('NFL')};seen=set()
- for e in espn_events():
-  season_type = e.get("season", {}).get("type")
-  if season_type not in (2, 3):
-   continue
-  if e.get('id') in seen:continue
-  comps=e.get('competitions') or []
-  if not comps or not comps[0].get('status',{}).get('type',{}).get('completed'):continue
-  c=comps[0];cs=c.get('competitors',[])
-  if len(cs)!=2:continue
-  seen.add(e.get('id'));a,b=cs;na=a.get('team',{}).get('displayName');nb=b.get('team',{}).get('displayName')
-  try:sa=int(a.get('score',0));sb=int(b.get('score',0))
-  except:continue
-  for name,score,opp in [(na,sa,sb),(nb,sb,sa)]:
-   if name not in teams:continue
-   if score>opp:teams[name]['wins']+=1
-   elif score<opp:teams[name]['losses']+=1
-   else:teams[name]['ties']+=1
- return {f'NFL|{k}':v for k,v in teams.items()}
+    teams = {
+        n: {
+            'wins': 0,
+            'losses': 0,
+            'ties': 0,
+            'source': 'ESPN scoreboard'
+        }
+        for n in drafted('NFL')
+    }
+
+    seen = set()
+
+    for e in espn_events():
+
+        # SAFETY CHECK:
+        # ESPN season type:
+        # 1 = preseason
+        # 2 = regular season
+        # 3 = postseason
+        season_type = e.get('season', {}).get('type')
+
+        if season_type not in (2, 3):
+            continue
+
+        if e.get('id') in seen:
+            continue
+
+        comps = e.get('competitions') or []
+
+        if not comps:
+            continue
+
+        if not comps[0].get('status', {}).get('type', {}).get('completed'):
+            continue
+
+        c = comps[0]
+        cs = c.get('competitors', [])
+
+        if len(cs) != 2:
+            continue
+
+        seen.add(e.get('id'))
+
+        a, b = cs
+
+        na = a.get('team', {}).get('displayName')
+        nb = b.get('team', {}).get('displayName')
+
+        try:
+            sa = int(a.get('score', 0))
+            sb = int(b.get('score', 0))
+        except:
+            continue
+
+        for name, score, opp in [
+            (na, sa, sb),
+            (nb, sb, sa)
+        ]:
+            if name not in teams:
+                continue
+
+            if score > opp:
+                teams[name]['wins'] += 1
+            elif score < opp:
+                teams[name]['losses'] += 1
+            else:
+                teams[name]['ties'] += 1
+
+    return {
+        f'NFL|{k}': v
+        for k, v in teams.items()
+    }
 def build():
  tr={};tr.update(cfb_records());tr.update(nfl_records());stand=[]
  for m in ROSTERS['managers']:
