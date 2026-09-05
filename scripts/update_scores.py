@@ -21,6 +21,9 @@ def espn_events():
 def nfl_records():
  teams={n:{'wins':0,'losses':0,'ties':0,'source':'ESPN scoreboard'} for n in drafted('NFL')};seen=set()
  for e in espn_events():
+  season_type = e.get("season", {}).get("type")
+  if season_type not in (2, 3):
+   continue
   if e.get('id') in seen:continue
   comps=e.get('competitions') or []
   if not comps or not comps[0].get('status',{}).get('type',{}).get('completed'):continue
