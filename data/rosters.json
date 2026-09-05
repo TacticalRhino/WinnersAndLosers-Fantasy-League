@@ -1,0 +1,1061 @@
+{
+  "season": 2026,
+  "managers": [
+    {
+      "seed": 1,
+      "manager": "Harley Barker",
+      "picks": [
+        {
+          "sport": "CFB",
+          "side": "Winner",
+          "team": "Notre Dame"
+        },
+        {
+          "sport": "CFB",
+          "side": "Winner",
+          "team": "BYU"
+        },
+        {
+          "sport": "CFB",
+          "side": "Winner",
+          "team": "Houston"
+        },
+        {
+          "sport": "CFB",
+          "side": "Loser",
+          "team": "Sam Houston State"
+        },
+        {
+          "sport": "CFB",
+          "side": "Loser",
+          "team": "Southern Miss"
+        },
+        {
+          "sport": "CFB",
+          "side": "Loser",
+          "team": "Purdue"
+        },
+        {
+          "sport": "NFL",
+          "side": "Winner",
+          "team": "Los Angeles Rams"
+        },
+        {
+          "sport": "NFL",
+          "side": "Winner",
+          "team": "Detroit Lions"
+        },
+        {
+          "sport": "NFL",
+          "side": "Winner",
+          "team": "Baltimore Ravens"
+        },
+        {
+          "sport": "NFL",
+          "side": "Loser",
+          "team": "Las Vegas Raiders"
+        },
+        {
+          "sport": "NFL",
+          "side": "Loser",
+          "team": "Tennessee Titans"
+        },
+        {
+          "sport": "NFL",
+          "side": "Loser",
+          "team": "Carolina Panthers"
+        }
+      ]
+    },
+    {
+      "seed": 2,
+      "manager": "Travis Bressler",
+      "picks": [
+        {
+          "sport": "CFB",
+          "side": "Winner",
+          "team": "SMU"
+        },
+        {
+          "sport": "CFB",
+          "side": "Winner",
+          "team": "Army"
+        },
+        {
+          "sport": "CFB",
+          "side": "Winner",
+          "team": "New Mexico"
+        },
+        {
+          "sport": "CFB",
+          "side": "Loser",
+          "team": "Charlotte"
+        },
+        {
+          "sport": "CFB",
+          "side": "Loser",
+          "team": "UTEP"
+        },
+        {
+          "sport": "CFB",
+          "side": "Loser",
+          "team": "Louisiana-Monroe"
+        },
+        {
+          "sport": "NFL",
+          "side": "Winner",
+          "team": "Baltimore Ravens"
+        },
+        {
+          "sport": "NFL",
+          "side": "Winner",
+          "team": "Cincinnati Bengals"
+        },
+        {
+          "sport": "NFL",
+          "side": "Winner",
+          "team": "Cincinnati Bengals"
+        },
+        {
+          "sport": "NFL",
+          "side": "Loser",
+          "team": "Arizona Cardinals"
+        },
+        {
+          "sport": "NFL",
+          "side": "Loser",
+          "team": "Miami Dolphins"
+        },
+        {
+          "sport": "NFL",
+          "side": "Loser",
+          "team": "Las Vegas Raiders"
+        }
+      ]
+    },
+    {
+      "seed": 3,
+      "manager": "Daniel Hollins",
+      "picks": [
+        {
+          "sport": "CFB",
+          "side": "Winner",
+          "team": "Ohio State"
+        },
+        {
+          "sport": "CFB",
+          "side": "Winner",
+          "team": "Texas Tech"
+        },
+        {
+          "sport": "CFB",
+          "side": "Winner",
+          "team": "North Dakota State"
+        },
+        {
+          "sport": "CFB",
+          "side": "Loser",
+          "team": "Middle Tennessee"
+        },
+        {
+          "sport": "CFB",
+          "side": "Loser",
+          "team": "Stanford"
+        },
+        {
+          "sport": "CFB",
+          "side": "Loser",
+          "team": "Mississippi State"
+        },
+        {
+          "sport": "NFL",
+          "side": "Winner",
+          "team": "Buffalo Bills"
+        },
+        {
+          "sport": "NFL",
+          "side": "Winner",
+          "team": "Green Bay Packers"
+        },
+        {
+          "sport": "NFL",
+          "side": "Winner",
+          "team": "Denver Broncos"
+        },
+        {
+          "sport": "NFL",
+          "side": "Loser",
+          "team": "Miami Dolphins"
+        },
+        {
+          "sport": "NFL",
+          "side": "Loser",
+          "team": "Tennessee Titans"
+        },
+        {
+          "sport": "NFL",
+          "side": "Loser",
+          "team": "New York Jets"
+        }
+      ]
+    },
+    {
+      "seed": 4,
+      "manager": "Graham Harris",
+      "picks": [
+        {
+          "sport": "CFB",
+          "side": "Winner",
+          "team": "Alabama"
+        },
+        {
+          "sport": "CFB",
+          "side": "Winner",
+          "team": "Michigan"
+        },
+        {
+          "sport": "CFB",
+          "side": "Winner",
+          "team": "Oklahoma"
+        },
+        {
+          "sport": "CFB",
+          "side": "Loser",
+          "team": "Vanderbilt"
+        },
+        {
+          "sport": "CFB",
+          "side": "Loser",
+          "team": "Virginia Tech"
+        },
+        {
+          "sport": "CFB",
+          "side": "Loser",
+          "team": "Virginia"
+        },
+        {
+          "sport": "NFL",
+          "side": "Winner",
+          "team": "Detroit Lions"
+        },
+        {
+          "sport": "NFL",
+          "side": "Winner",
+          "team": "Philadelphia Eagles"
+        },
+        {
+          "sport": "NFL",
+          "side": "Winner",
+          "team": "New England Patriots"
+        },
+        {
+          "sport": "NFL",
+          "side": "Loser",
+          "team": "San Francisco 49ers"
+        },
+        {
+          "sport": "NFL",
+          "side": "Loser",
+          "team": "Las Vegas Raiders"
+        },
+        {
+          "sport": "NFL",
+          "side": "Loser",
+          "team": "Pittsburgh Steelers"
+        }
+      ]
+    },
+    {
+      "seed": 5,
+      "manager": "Rian Napier",
+      "picks": [
+        {
+          "sport": "CFB",
+          "side": "Winner",
+          "team": "Oregon"
+        },
+        {
+          "sport": "CFB",
+          "side": "Winner",
+          "team": "Texas A&M"
+        },
+        {
+          "sport": "CFB",
+          "side": "Winner",
+          "team": "Rutgers"
+        },
+        {
+          "sport": "CFB",
+          "side": "Loser",
+          "team": "UMass"
+        },
+        {
+          "sport": "CFB",
+          "side": "Loser",
+          "team": "Kent State"
+        },
+        {
+          "sport": "CFB",
+          "side": "Loser",
+          "team": "Kennesaw State"
+        },
+        {
+          "sport": "NFL",
+          "side": "Winner",
+          "team": "Baltimore Ravens"
+        },
+        {
+          "sport": "NFL",
+          "side": "Winner",
+          "team": "Kansas City Chiefs"
+        },
+        {
+          "sport": "NFL",
+          "side": "Winner",
+          "team": "Dallas Cowboys"
+        },
+        {
+          "sport": "NFL",
+          "side": "Loser",
+          "team": "Arizona Cardinals"
+        },
+        {
+          "sport": "NFL",
+          "side": "Loser",
+          "team": "Miami Dolphins"
+        },
+        {
+          "sport": "NFL",
+          "side": "Loser",
+          "team": "New Orleans Saints"
+        }
+      ]
+    },
+    {
+      "seed": 6,
+      "manager": "John Crownhart",
+      "picks": [
+        {
+          "sport": "CFB",
+          "side": "Winner",
+          "team": "Auburn"
+        },
+        {
+          "sport": "CFB",
+          "side": "Winner",
+          "team": "Minnesota"
+        },
+        {
+          "sport": "CFB",
+          "side": "Winner",
+          "team": "Iowa"
+        },
+        {
+          "sport": "CFB",
+          "side": "Loser",
+          "team": "Missouri State"
+        },
+        {
+          "sport": "CFB",
+          "side": "Loser",
+          "team": "San Jose State"
+        },
+        {
+          "sport": "CFB",
+          "side": "Loser",
+          "team": "Delaware"
+        },
+        {
+          "sport": "NFL",
+          "side": "Winner",
+          "team": "Buffalo Bills"
+        },
+        {
+          "sport": "NFL",
+          "side": "Winner",
+          "team": "Washington Commanders"
+        },
+        {
+          "sport": "NFL",
+          "side": "Winner",
+          "team": "Green Bay Packers"
+        },
+        {
+          "sport": "NFL",
+          "side": "Loser",
+          "team": "Los Angeles Chargers"
+        },
+        {
+          "sport": "NFL",
+          "side": "Loser",
+          "team": "New Orleans Saints"
+        },
+        {
+          "sport": "NFL",
+          "side": "Loser",
+          "team": "New York Giants"
+        }
+      ]
+    },
+    {
+      "seed": 7,
+      "manager": "Will Wittenbrook",
+      "picks": [
+        {
+          "sport": "CFB",
+          "side": "Winner",
+          "team": "Georgia"
+        },
+        {
+          "sport": "CFB",
+          "side": "Winner",
+          "team": "Georgia Tech"
+        },
+        {
+          "sport": "CFB",
+          "side": "Winner",
+          "team": "Ole Miss"
+        },
+        {
+          "sport": "CFB",
+          "side": "Loser",
+          "team": "Florida"
+        },
+        {
+          "sport": "CFB",
+          "side": "Loser",
+          "team": "UNLV"
+        },
+        {
+          "sport": "CFB",
+          "side": "Loser",
+          "team": "Coastal Carolina"
+        },
+        {
+          "sport": "NFL",
+          "side": "Winner",
+          "team": "Buffalo Bills"
+        },
+        {
+          "sport": "NFL",
+          "side": "Winner",
+          "team": "Chicago Bears"
+        },
+        {
+          "sport": "NFL",
+          "side": "Winner",
+          "team": "Green Bay Packers"
+        },
+        {
+          "sport": "NFL",
+          "side": "Loser",
+          "team": "New Orleans Saints"
+        },
+        {
+          "sport": "NFL",
+          "side": "Loser",
+          "team": "Tampa Bay Buccaneers"
+        },
+        {
+          "sport": "NFL",
+          "side": "Loser",
+          "team": "Carolina Panthers"
+        }
+      ]
+    },
+    {
+      "seed": 8,
+      "manager": "Nate Varnadore",
+      "picks": [
+        {
+          "sport": "CFB",
+          "side": "Winner",
+          "team": "Indiana"
+        },
+        {
+          "sport": "CFB",
+          "side": "Winner",
+          "team": "Louisville"
+        },
+        {
+          "sport": "CFB",
+          "side": "Winner",
+          "team": "Pittsburgh"
+        },
+        {
+          "sport": "CFB",
+          "side": "Loser",
+          "team": "Sacramento State"
+        },
+        {
+          "sport": "CFB",
+          "side": "Loser",
+          "team": "Northern Illinois"
+        },
+        {
+          "sport": "CFB",
+          "side": "Loser",
+          "team": "Florida Atlantic"
+        },
+        {
+          "sport": "NFL",
+          "side": "Winner",
+          "team": "Tampa Bay Buccaneers"
+        },
+        {
+          "sport": "NFL",
+          "side": "Winner",
+          "team": "Seattle Seahawks"
+        },
+        {
+          "sport": "NFL",
+          "side": "Winner",
+          "team": "Philadelphia Eagles"
+        },
+        {
+          "sport": "NFL",
+          "side": "Loser",
+          "team": "New York Jets"
+        },
+        {
+          "sport": "NFL",
+          "side": "Loser",
+          "team": "Minnesota Vikings"
+        },
+        {
+          "sport": "NFL",
+          "side": "Loser",
+          "team": "Jacksonville Jaguars"
+        }
+      ]
+    },
+    {
+      "seed": 9,
+      "manager": "Brian Byrd",
+      "picks": [
+        {
+          "sport": "CFB",
+          "side": "Winner",
+          "team": "Liberty"
+        },
+        {
+          "sport": "CFB",
+          "side": "Winner",
+          "team": "Baylor"
+        },
+        {
+          "sport": "CFB",
+          "side": "Winner",
+          "team": "North Carolina"
+        },
+        {
+          "sport": "CFB",
+          "side": "Loser",
+          "team": "Old Dominion"
+        },
+        {
+          "sport": "CFB",
+          "side": "Loser",
+          "team": "Hawaii"
+        },
+        {
+          "sport": "CFB",
+          "side": "Loser",
+          "team": "Appalachian State"
+        },
+        {
+          "sport": "NFL",
+          "side": "Winner",
+          "team": "Dallas Cowboys"
+        },
+        {
+          "sport": "NFL",
+          "side": "Winner",
+          "team": "San Francisco 49ers"
+        },
+        {
+          "sport": "NFL",
+          "side": "Winner",
+          "team": "Indianapolis Colts"
+        },
+        {
+          "sport": "NFL",
+          "side": "Loser",
+          "team": "Chicago Bears"
+        },
+        {
+          "sport": "NFL",
+          "side": "Loser",
+          "team": "Pittsburgh Steelers"
+        },
+        {
+          "sport": "NFL",
+          "side": "Loser",
+          "team": "Jacksonville Jaguars"
+        }
+      ]
+    },
+    {
+      "seed": 10,
+      "manager": "Phil Ridge",
+      "picks": [
+        {
+          "sport": "CFB",
+          "side": "Winner",
+          "team": "Illinois"
+        },
+        {
+          "sport": "CFB",
+          "side": "Winner",
+          "team": "James Madison"
+        },
+        {
+          "sport": "CFB",
+          "side": "Winner",
+          "team": "UCLA"
+        },
+        {
+          "sport": "CFB",
+          "side": "Loser",
+          "team": "Utah"
+        },
+        {
+          "sport": "CFB",
+          "side": "Loser",
+          "team": "New Mexico State"
+        },
+        {
+          "sport": "CFB",
+          "side": "Loser",
+          "team": "UAB"
+        },
+        {
+          "sport": "NFL",
+          "side": "Winner",
+          "team": "Chicago Bears"
+        },
+        {
+          "sport": "NFL",
+          "side": "Winner",
+          "team": "Detroit Lions"
+        },
+        {
+          "sport": "NFL",
+          "side": "Winner",
+          "team": "Seattle Seahawks"
+        },
+        {
+          "sport": "NFL",
+          "side": "Loser",
+          "team": "Minnesota Vikings"
+        },
+        {
+          "sport": "NFL",
+          "side": "Loser",
+          "team": "Indianapolis Colts"
+        },
+        {
+          "sport": "NFL",
+          "side": "Loser",
+          "team": "Atlanta Falcons"
+        }
+      ]
+    },
+    {
+      "seed": 11,
+      "manager": "Steve Nester",
+      "picks": [
+        {
+          "sport": "CFB",
+          "side": "Winner",
+          "team": "Navy"
+        },
+        {
+          "sport": "CFB",
+          "side": "Winner",
+          "team": "Boise State"
+        },
+        {
+          "sport": "CFB",
+          "side": "Winner",
+          "team": "South Carolina"
+        },
+        {
+          "sport": "CFB",
+          "side": "Loser",
+          "team": "Ball State"
+        },
+        {
+          "sport": "CFB",
+          "side": "Loser",
+          "team": "Boston College"
+        },
+        {
+          "sport": "CFB",
+          "side": "Loser",
+          "team": "Iowa State"
+        },
+        {
+          "sport": "NFL",
+          "side": "Winner",
+          "team": "Los Angeles Rams"
+        },
+        {
+          "sport": "NFL",
+          "side": "Winner",
+          "team": "Houston Texans"
+        },
+        {
+          "sport": "NFL",
+          "side": "Winner",
+          "team": "Los Angeles Chargers"
+        },
+        {
+          "sport": "NFL",
+          "side": "Loser",
+          "team": "Cleveland Browns"
+        },
+        {
+          "sport": "NFL",
+          "side": "Loser",
+          "team": "Atlanta Falcons"
+        },
+        {
+          "sport": "NFL",
+          "side": "Loser",
+          "team": "New York Jets"
+        }
+      ]
+    },
+    {
+      "seed": 12,
+      "manager": "Mike Jimenez",
+      "picks": [
+        {
+          "sport": "CFB",
+          "side": "Winner",
+          "team": "USC"
+        },
+        {
+          "sport": "CFB",
+          "side": "Winner",
+          "team": "Washington"
+        },
+        {
+          "sport": "CFB",
+          "side": "Winner",
+          "team": "Missouri"
+        },
+        {
+          "sport": "CFB",
+          "side": "Loser",
+          "team": "Eastern Michigan"
+        },
+        {
+          "sport": "CFB",
+          "side": "Loser",
+          "team": "Central Michigan"
+        },
+        {
+          "sport": "CFB",
+          "side": "Loser",
+          "team": "Tulsa"
+        },
+        {
+          "sport": "NFL",
+          "side": "Winner",
+          "team": "Pittsburgh Steelers"
+        },
+        {
+          "sport": "NFL",
+          "side": "Winner",
+          "team": "Los Angeles Rams"
+        },
+        {
+          "sport": "NFL",
+          "side": "Winner",
+          "team": "Denver Broncos"
+        },
+        {
+          "sport": "NFL",
+          "side": "Loser",
+          "team": "Tennessee Titans"
+        },
+        {
+          "sport": "NFL",
+          "side": "Loser",
+          "team": "Arizona Cardinals"
+        },
+        {
+          "sport": "NFL",
+          "side": "Loser",
+          "team": "Cleveland Browns"
+        }
+      ]
+    },
+    {
+      "seed": 13,
+      "manager": "Steve Gourley",
+      "picks": [
+        {
+          "sport": "CFB",
+          "side": "Winner",
+          "team": "LSU"
+        },
+        {
+          "sport": "CFB",
+          "side": "Winner",
+          "team": "Clemson"
+        },
+        {
+          "sport": "CFB",
+          "side": "Winner",
+          "team": "Arizona State"
+        },
+        {
+          "sport": "CFB",
+          "side": "Loser",
+          "team": "Akron"
+        },
+        {
+          "sport": "CFB",
+          "side": "Loser",
+          "team": "Michigan State"
+        },
+        {
+          "sport": "CFB",
+          "side": "Loser",
+          "team": "Bowling Green"
+        },
+        {
+          "sport": "NFL",
+          "side": "Winner",
+          "team": "San Francisco 49ers"
+        },
+        {
+          "sport": "NFL",
+          "side": "Winner",
+          "team": "Washington Commanders"
+        },
+        {
+          "sport": "NFL",
+          "side": "Winner",
+          "team": "Kansas City Chiefs"
+        },
+        {
+          "sport": "NFL",
+          "side": "Loser",
+          "team": "Cleveland Browns"
+        },
+        {
+          "sport": "NFL",
+          "side": "Loser",
+          "team": "Dallas Cowboys"
+        },
+        {
+          "sport": "NFL",
+          "side": "Loser",
+          "team": "New York Giants"
+        }
+      ]
+    },
+    {
+      "seed": 14,
+      "manager": "Keith Waddles",
+      "picks": [
+        {
+          "sport": "CFB",
+          "side": "Winner",
+          "team": "Miami (FL)"
+        },
+        {
+          "sport": "CFB",
+          "side": "Winner",
+          "team": "Texas"
+        },
+        {
+          "sport": "CFB",
+          "side": "Winner",
+          "team": "East Carolina"
+        },
+        {
+          "sport": "CFB",
+          "side": "Loser",
+          "team": "Jacksonville State"
+        },
+        {
+          "sport": "CFB",
+          "side": "Loser",
+          "team": "Georgia State"
+        },
+        {
+          "sport": "CFB",
+          "side": "Loser",
+          "team": "Marshall"
+        },
+        {
+          "sport": "NFL",
+          "side": "Winner",
+          "team": "Seattle Seahawks"
+        },
+        {
+          "sport": "NFL",
+          "side": "Winner",
+          "team": "Houston Texans"
+        },
+        {
+          "sport": "NFL",
+          "side": "Winner",
+          "team": "Denver Broncos"
+        },
+        {
+          "sport": "NFL",
+          "side": "Loser",
+          "team": "Minnesota Vikings"
+        },
+        {
+          "sport": "NFL",
+          "side": "Loser",
+          "team": "Carolina Panthers"
+        },
+        {
+          "sport": "NFL",
+          "side": "Loser",
+          "team": "Atlanta Falcons"
+        }
+      ]
+    },
+    {
+      "seed": 15,
+      "manager": "Jose Luna",
+      "picks": [
+        {
+          "sport": "CFB",
+          "side": "Winner",
+          "team": "Tennessee"
+        },
+        {
+          "sport": "CFB",
+          "side": "Winner",
+          "team": "Penn State"
+        },
+        {
+          "sport": "CFB",
+          "side": "Winner",
+          "team": "Kansas State"
+        },
+        {
+          "sport": "CFB",
+          "side": "Loser",
+          "team": "Temple"
+        },
+        {
+          "sport": "CFB",
+          "side": "Loser",
+          "team": "Rice"
+        },
+        {
+          "sport": "CFB",
+          "side": "Loser",
+          "team": "Florida International"
+        },
+        {
+          "sport": "NFL",
+          "side": "Winner",
+          "team": "Philadelphia Eagles"
+        },
+        {
+          "sport": "NFL",
+          "side": "Winner",
+          "team": "New England Patriots"
+        },
+        {
+          "sport": "NFL",
+          "side": "Winner",
+          "team": "Kansas City Chiefs"
+        },
+        {
+          "sport": "NFL",
+          "side": "Loser",
+          "team": "Washington Commanders"
+        },
+        {
+          "sport": "NFL",
+          "side": "Loser",
+          "team": "New York Giants"
+        },
+        {
+          "sport": "NFL",
+          "side": "Loser",
+          "team": "Cincinnati Bengals"
+        }
+      ]
+    },
+    {
+      "seed": 16,
+      "manager": "Dead Man",
+      "picks": [
+        {
+          "sport": "CFB",
+          "side": "Winner",
+          "team": "Duke"
+        },
+        {
+          "sport": "CFB",
+          "side": "Winner",
+          "team": "Colorado"
+        },
+        {
+          "sport": "CFB",
+          "side": "Winner",
+          "team": "Kentucky"
+        },
+        {
+          "sport": "CFB",
+          "side": "Loser",
+          "team": "Western Kentucky"
+        },
+        {
+          "sport": "CFB",
+          "side": "Loser",
+          "team": "South Alabama"
+        },
+        {
+          "sport": "CFB",
+          "side": "Loser",
+          "team": "Buffalo"
+        },
+        {
+          "sport": "NFL",
+          "side": "Winner",
+          "team": "New England Patriots"
+        },
+        {
+          "sport": "NFL",
+          "side": "Winner",
+          "team": "Houston Texans"
+        },
+        {
+          "sport": "NFL",
+          "side": "Winner",
+          "team": "Tampa Bay Buccaneers"
+        },
+        {
+          "sport": "NFL",
+          "side": "Loser",
+          "team": "Los Angeles Chargers"
+        },
+        {
+          "sport": "NFL",
+          "side": "Loser",
+          "team": "Jacksonville Jaguars"
+        },
+        {
+          "sport": "NFL",
+          "side": "Loser",
+          "team": "Indianapolis Colts"
+        }
+      ]
+    }
+  ]
+}
