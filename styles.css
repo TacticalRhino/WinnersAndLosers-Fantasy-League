@@ -51,9 +51,9 @@ body {
 
   background:
     linear-gradient(
-      rgba(5, 10, 6, 0.74),
-      rgba(5, 10, 6, 0.93) 38%,
-      rgba(5, 10, 6, 0.98) 100%
+      rgba(5, 10, 6, 0.30),
+      rgba(5, 10, 6, 0.45) 38%,
+      rgba(5, 10, 6, 0.60) 100%
     ),
     url("images/football-field.jpg") center top / cover fixed no-repeat;
 
