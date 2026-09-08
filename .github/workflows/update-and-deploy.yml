@@ -2,8 +2,21 @@ name: Update standings and deploy
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "0 11 * * *"
+schedule:
+  # Daily morning refresh
+  - cron: "17 11 * * *"
+
+  # Saturdays: every 30 minutes, roughly noon-midnight ET
+  - cron: "17,47 16-23 * * 6"
+  - cron: "17,47 0-3 * * 0"
+
+  # Sundays: every 30 minutes, roughly noon-midnight ET
+  - cron: "23,53 16-23 * * 0"
+  - cron: "23,53 0-3 * * 1"
+
+  # Monday and Thursday evening NFL
+  - cron: "27,57 23 * * 1,4"
+  - cron: "27,57 0-3 * * 2,5"
   push:
     branches: ["main"]
 
