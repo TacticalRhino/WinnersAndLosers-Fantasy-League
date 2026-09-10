@@ -18,7 +18,18 @@ def cfb_records():
  r=requests.get('https://api.collegefootballdata.com/records',params={'year':SEASON},headers={'Authorization':f'Bearer {k}'},timeout=30);r.raise_for_status();by={x['team']:x for x in r.json()};out={}
  for public in drafted('CFB'):
   api=CFB_ALIASES.get(public,public);item=by.get(api)
-  if not item:out[f'CFB|{public}']={'wins':0,'losses':0,'ties':0,'source':'CFBD','missing':True};continue
+  if not item:
+    print(f"WARNING: CFBD team not found: '{public}' -> '{api}'")
+
+    out[f'CFB|{public}'] = {
+        'wins': 0,
+        'losses': 0,
+        'ties': 0,
+        'source': 'CFBD',
+        'missing': True
+    }
+
+    continue
   t=item.get('total') or {};out[f'CFB|{public}']={'wins':t.get('wins',0),'losses':t.get('losses',0),'ties':t.get('ties',0),'source':'CFBD'}
  return out
 def espn_events():
