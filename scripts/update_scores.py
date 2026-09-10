@@ -2,7 +2,15 @@ import json,os,requests
 from pathlib import Path
 from datetime import datetime,timezone
 ROOT=Path(__file__).resolve().parents[1];SEASON=2026;ROSTERS=json.loads((ROOT/'data'/'rosters.json').read_text())
-CFB_ALIASES={'Sam Houston State':'Sam Houston','Louisiana-Monroe':'ULM','Florida International':'FIU','Miami (FL)':'Miami'}
+CFB_ALIASES = {
+    'Sam Houston State': 'Sam Houston',
+    'Louisiana-Monroe': 'UL Monroe',
+    'Miami (FL)': 'Miami',
+    'UMass': 'Massachusetts',
+    'Hawaii': "Hawai'i",
+    'San Jose State': 'San José State',
+    'Appalachian State': 'App State'
+}
 def drafted(s):return sorted({p['team'] for m in ROSTERS['managers'] for p in m['picks'] if p['sport']==s})
 def cfb_records():
  k=os.environ.get('CFBD_API_KEY')
